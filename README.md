@@ -15,3 +15,11 @@ A Python-based transmission network analysis tool built with **pandapower**, **P
 └── src/
     ├── contingency_analyzer.py  # AC power flow, N-1 loop, and capacitor sizing logic
     └── plotting.py              # Matplotlib visualization generators
+
+```
+## Results
+### Voltage Profile Comparison
+![Voltage Profile Comparison](assets/voltage_profile_comparison.png)
+
+### Top 10 Most Severe N-1 Line Outages
+![Worst N-1 Contingencies](assets/n1_worst_contingencies.png)
